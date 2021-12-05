@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    /* color: whitesmoke; */
+}
+
+/* now start coding of css from here  */
+/* 
+header{
+    height: 100vh;
+    width: 100vw;
+} */
+
+header{
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(./../images/pexels-photo-4974914.jpeg) center/cover fixed no-repeat;
+
+}
+
+/* nav coading starts here   */
+
+
+nav{
+    height: 60px;
+    background: rgb(31, 23, 23);
+}
+
+nav .logo{
+    /* display: inline; */
+    float: left;
+    line-height: 60px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 10vw;
+    color: whitesmoke;
+}
+
+nav .link ul{
+    float: right;
+    /* background-color: red; */
+    margin-right: 3vw;
+}
+
+nav .link ul li{
+    line-height: 60px;
+    display: inline-block;
+    height: 60px;
+    /* width: 80px; */
+    padding: 0 3vw;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+nav .link ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav .link ul li:hover{
+    background: rgb(7, 1, 1);
+}
+
+nav .fas{
+    /* background-color: red; */
+    line-height: 60px;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+
+
+
+/* nav coading ends here  */
+
+
+/* ******** main section coading starts here ************* */
+main{
+    /* background: rgb(31, 23, 23); */
+    /* width: 100vw; */
+    /* height: calc(100vh-50px); */
+    height: 90vh;
+    color: whitesmoke;
+}
+
+main .left{
+    float: left;
+    width: 70%;
+    height: 97%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0 0 80px ;
+    /* align-items: center; */
+}
+
+main .left h1{
+    /* background-color: rebeccapurple; */
+    font-size: 7vw;
+    font-weight: bold;
+}
+
+main .left h3{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+main .left a{
+    /* display: inline-flex; */
+    width: 13vw;
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 4px 9px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+    /* border-radius: 4px ; */
+    /* background-color: aqua; */
+    color: rgb(31, 23, 23);
+    
+}
+
+main .right{
+    float: right;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px 0 0;
+    /* background-color: black; */
+}
+
+
+main .fab{
+    font-size: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    /* background-color: black; */
+}
+
+/* ******** main section coading ends here ************* */
+
+
+/* ******* about section starts from here ********** */
+
+.about{
+    height: 60vh;
+    background: whitesmoke;
+    /* color: black; */
+    color: rgb(31, 23, 23);
+}
+
+.about .left{
+    height: 70vh;
+    width: 70%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 6vw ;
+}
+
+.about .left h1{
+    font-size: 7vw;
+}
+
+.about .left p{
+    font-size: 1.9vw;
+}
+
+
+.about .right{
+    height: 60vh;
+    float: right;
+    /* display:  flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    
+}
+
+.about .right img{
+    /* display: block; */
+    /* margin: 0 auto; */
+    border-radius: 50%;
+    margin: 90px 11vw 0 0;
+}
+/* ******* about section ends from here ********** */
