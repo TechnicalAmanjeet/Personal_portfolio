@@ -18,7 +18,7 @@
 
 body{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(./../images/pexels-photo-4974914.jpeg) center/cover fixed no-repeat;
-
+    /* width: 98vw; */
 }
 
 /* nav coading starts here   */
@@ -156,7 +156,7 @@ main .fab{
 /* ******* about section starts from here ********** */
 
 .about{
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     background: whitesmoke;
     /* color: black; */
@@ -242,13 +242,13 @@ main .fab{
     height: 74vh;
     margin-left: 2vw;
     box-shadow:2px 2px 5px 5px rgb(212, 202, 202);
-    width: 22vw;
+    width: 21vw;
     background: white;
     padding: 1.5vw 1vw;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -283,10 +283,27 @@ main .fab{
 }
 
 
-@media(max-width:750px){
-    .project .project-card{
-        /* width: 3000px; */
-        /* background-color: blue; */
-    }
-}
 /* Project section ends from here  */
+
+
+
+
+/* contact section starts froms here  */
+.contact{
+    height: 20vh;
+    background: rgb(56, 51, 51);
+    color: whitesmoke;
+    /* padding: 20px auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact h3{
+    /* margin: 10px auto; */
+    /* text-align: center; */
+    font-size: 3vw;
+    font-weight: bolder;
+
+}
+/* contact section ends froms here  */
