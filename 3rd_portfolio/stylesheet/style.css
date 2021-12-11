@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* color: whitesmoke; */
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F7F9F8;
+
+    width: 100vw;
+    /* position: relative; */
+}
+
+
+/* ******** custom coding of css starts from here ********  */
+
+main{
+    position: relative;
+    width: 84%;
+    height: 100vh;
+    margin: 0 auto;
+    transition: all 2s ease;
+}
+
+nav{
+    height: 70px;
+    /* background-color: rgb(153, 153, 170); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 50px;
+    border-radius: 50%;
+    /* margin: auto; */
+}
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    /* background-color: white; */
+    padding: 7px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.about{
+    /* background-color: aquamarine; */
+    width: 40%;
+    margin: 19% 0;
+}
+
+.about h1{
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.about h1 span{
+    color: rgb(240, 110, 4);
+}
+
+.about p{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about a{
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    padding: 7px 15px;
+    font-weight: bolder;
+}
+
+.profile img{
+    position: absolute;
+}
+
+img.shape{
+    bottom: 0px;
+    right: 5%;
+    width: 46%;
+}
+
+img.pic{
+    width: 30%;
+    right: 14%;
+    bottom: 0px;
+}
+
+.profile:hover img.shape{
+    right: 3%;
+    bottom: 1%;
+    transition: all 5s ease;
+}
+
+.profile:hover img.pic{
+    transition: all 5s ease;
+    right: 16%;
+    bottom: 4%;
+}

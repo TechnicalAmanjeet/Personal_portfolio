@@ -1,0 +1,11 @@
+     ***** what needs to do more *****
+
+1.) need to make it responsive only.
+
+
+    ***** what has been completed *****
+
+    learn : always work on % basis.
+
+
+
